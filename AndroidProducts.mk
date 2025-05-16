@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/afterlife_mojito.mk
+    $(LOCAL_DIR)/lineage_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    afterlife_mojito-user \
-    afterlife_mojito-userdebug \
-    afterlife_mojito-eng
+    lineage_mojito-user \
+    lineage_mojito-userdebug \
+    lineage_mojito-eng
