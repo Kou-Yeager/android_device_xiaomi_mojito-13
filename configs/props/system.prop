@@ -106,12 +106,5 @@ power.saving.mode=1
 # Storage.xml moment
 persist.sys.binary_xml=false
 
-# Battery Saving
-ro.vendor.use_data_netmgrd=true
-ro.vold.umsdirtyratio=20
-ro.ril.disable.power.collapse=1
-power.saving.mode=1
-pm.sleep_mode=1
-
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
