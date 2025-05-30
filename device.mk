@@ -28,8 +28,8 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
-# Call the Leica Camera setup
-$(call inherit-product-if-exists, vendor/xiaomi/mojito-leicacamera/mojito-leicacamera-vendor.mk)
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/mojito-miuicamera/products/miuicamera.mk)
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
